@@ -52,7 +52,7 @@ with open(pg, 'r') as f:
         pgv["version"][i] = int(v)
         i += 1
     pgv["version"] = pgv["version"][2] + (pgv["version"][1] * 10) + (pgv["version"][0] * 100)
-    if pgv["version"] < vb["mix"] and pgv["version"] > vb["min"]:
+    if pgv["version"] <= vb["mix"] and pgv["version"] >= vb["min"]:
         pgv["ioru"] = True
     else:
         pgv["ioru"] = False
