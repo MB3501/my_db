@@ -59,8 +59,8 @@ with open(pg, 'r') as f:
         
 if pgv["ioru"] == False:
     print("ไม่รองรับกับเวอร์ชั่นนี้")
-    ip = input("คุณจะพยายามติดตั้งต่อไหม[y,n] : ")
-    if ip.lower() == "y":
+    ip = input("คุณจะพยายามติดตั้งต่อไหม[y/n] : ")
+    if ip.lower().strip() == "y":
         pgv["ioru"] = True
 
 if pgv["ioru"] == True:
