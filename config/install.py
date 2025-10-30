@@ -89,6 +89,6 @@ if pgv["ioru"] == True:
                     index=False
                 )
         if pgic["update"] == False:
-            print(f"ติดตั้ง {data["comm"} สำเร็จ {data["version"]}")
+            print(f"ติดตั้ง {data["comm"]} สำเร็จ {data["version"]}")
     except requests.exceptions.RequestException as e:
         print("ติดตั้งไม่สำเร็จ")
