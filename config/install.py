@@ -61,7 +61,7 @@ if pgv["ioru"] == False:
     print("ไม่รองรับกับเวอร์ชั่นนี้")
     ip = input("คุณจะพยายามติดตั้งต่อไหม[y,n] : ")
     if ip.lower() == "y":
-        pgv["ioru"] == True
+        pgv["ioru"] = True
 
 if pgv["ioru"] == True:
     try:
