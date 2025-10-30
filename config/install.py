@@ -19,7 +19,7 @@ data = {
     "index":["23586"],
     "comm":["config"],
     "namefile":["config.py"],
-    "version":["0.1.5"],
+    "version":["0.2.0"],
     "type":["-ao"],
     "ph":["ao"],
     "from":["python3"]
